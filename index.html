@@ -4,141 +4,98 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PPDI Provinsi Sulawesi Selatan</title>
-  <meta name="description" content="Website resmi Persatuan Perangkat Desa Indonesia Provinsi Sulawesi Selatan.">
+  <meta name="description" content="Website PPDI Provinsi Sulawesi Selatan">
   <link rel="stylesheet" href="style.css">
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f3f6fa;
-      color: #243247;
-    }
-    header {
-      background: #075b42;
-      color: white;
-      padding: 28px 18px;
-      text-align: center;
-    }
-    header h1 { margin: 0 0 10px; }
-    header p { margin: 0; }
-    nav {
-      background: #064532;
-      padding: 13px;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 7px;
-      display: inline-block;
-    }
-    main {
-      max-width: 950px;
-      margin: 25px auto;
-      padding: 0 15px;
-    }
-    .welcome, .menu {
-      background: white;
-      padding: 22px;
-      border-radius: 12px;
-      margin-bottom: 18px;
-      box-shadow: 0 2px 9px #00000010;
-    }
-    .menu-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 12px;
-    }
-    .menu-item {
-      background: #eaf4ef;
-      padding: 17px;
-      border-radius: 9px;
-      text-align: center;
-      font-weight: bold;
-    }
-    footer {
-      background: #064532;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 35px;
-    }
-  </style>
 </head>
 <body>
-  <header>
-    <h1>PPDI PROVINSI SULAWESI SELATAN</h1>
-    <p>Persatuan Perangkat Desa Indonesia</p>
-  </header>
 
-  <nav>
-    <a href="#beranda">Beranda</a>
-    <a href="#profil">Profil</a>
-    <a href="#wilayah">Kabupaten</a>
-    <a href="#berita">Berita</a>
-    <a href="#kontak">Kontak</a>
-  </nav>
+<header>
+  <div class="logo">PPDI</div>
+  <h1>PPDI PROVINSI SULAWESI SELATAN</h1>
+  <p>Persatuan Perangkat Desa Indonesia</p>
+</header>
 
-  <main>
-    <section class="welcome" id="beranda">
-      <h2>Selamat Datang</h2>
-      <p>
-        Website PPDI Provinsi Sulawesi Selatan.
-        Media informasi, komunikasi, dan koordinasi
-        pengurus serta anggota PPDI di seluruh kabupaten.
-      </p>
-    </section>
+<nav>
+  <a href="#beranda">Beranda</a>
+  <a href="#profil">Profil</a>
+  <a href="#wilayah">Kabupaten</a>
+  <a href="#berita">Berita</a>
+  <a href="#pengumuman">Pengumuman</a>
+  <a href="#kontak">Kontak</a>
+</nav>
 
-    <section class="menu" id="profil">
-      <h2>Profil Organisasi</h2>
-      <p>
-        Wadah komunikasi dan perjuangan perangkat desa
-        untuk memperkuat organisasi dan pelayanan desa.
-      </p>
-    </section>
+<main>
+  <section class="hero" id="beranda">
+    <p class="label">WEBSITE RESMI ORGANISASI</p>
+    <h2>Bersatu, Berjuang,<br>Maju Bersama</h2>
+    <p>
+      Pusat informasi, komunikasi, dan koordinasi
+      Persatuan Perangkat Desa Indonesia
+      Provinsi Sulawesi Selatan.
+    </p>
+    <a class="tombol" href="#profil">Kenali Organisasi Kami</a>
+  </section>
 
-    <section class="menu" id="wilayah">
-      <h2>Wilayah Kabupaten</h2>
-      <div class="menu-grid">
-        <div class="menu-item">Bantaeng</div>
-        <div class="menu-item">Barru</div>
-        <div class="menu-item">Bone</div>
-        <div class="menu-item">Bulukumba</div>
-        <div class="menu-item">Enrekang</div>
-        <div class="menu-item">Gowa</div>
-        <div class="menu-item">Jeneponto</div>
-        <div class="menu-item">Kepulauan Selayar</div>
-        <div class="menu-item">Luwu</div>
-        <div class="menu-item">Luwu Timur</div>
-        <div class="menu-item">Luwu Utara</div>
-        <div class="menu-item">Maros</div>
-        <div class="menu-item">Pangkep</div>
-        <div class="menu-item">Pinrang</div>
-        <div class="menu-item">Sidrap</div>
-        <div class="menu-item">Sinjai</div>
-        <div class="menu-item">Soppeng</div>
-        <div class="menu-item">Takalar</div>
-        <div class="menu-item">Tana Toraja</div>
-        <div class="menu-item">Toraja Utara</div>
-        <div class="menu-item">Wajo</div>
-      </div>
-    </section>
+  <section class="section" id="profil">
+    <h2>Profil Organisasi</h2>
+    <p>
+      PPDI merupakan wadah organisasi perangkat desa
+      untuk memperkuat persatuan, komunikasi, dan
+      perjuangan dalam meningkatkan kapasitas serta
+      kesejahteraan perangkat desa.
+    </p>
+  </section>
 
-    <section class="menu" id="berita">
-      <h2>Berita dan Pengumuman</h2>
-      <p>Informasi kegiatan dan pengumuman organisasi akan ditampilkan di sini.</p>
-    </section>
+  <section class="section" id="wilayah">
+    <h2>Wilayah Kabupaten</h2>
+    <p>Jelajahi informasi kepengurusan PPDI di wilayah kabupaten.</p>
 
-    <section class="menu" id="kontak">
-      <h2>Kontak Organisasi</h2>
-      <p>Informasi kontak resmi PPDI Provinsi Sulawesi Selatan akan ditambahkan kemudian.</p>
-    </section>
-  </main>
+    <div class="grid-kabupaten">
+      <div>Bantaeng</div>
+      <div>Barru</div>
+      <div>Bone</div>
+      <div>Bulukumba</div>
+      <div>Enrekang</div>
+      <div>Gowa</div>
+      <div>Jeneponto</div>
+      <div>Kepulauan Selayar</div>
+      <div>Luwu</div>
+      <div>Luwu Timur</div>
+      <div>Luwu Utara</div>
+      <div>Maros</div>
+      <div>Pangkep</div>
+      <div>Pinrang</div>
+      <div>Sidrap</div>
+      <div>Sinjai</div>
+      <div>Soppeng</div>
+      <div>Takalar</div>
+      <div>Tana Toraja</div>
+      <div>Toraja Utara</div>
+      <div>Wajo</div>
+    </div>
+  </section>
 
-  <footer>
-    <p>© 2026 PPDI Provinsi Sulawesi Selatan</p>
-    <p>Transparan, Terhubung, dan Bersatu</p>
-  </footer>
+  <section class="section" id="berita">
+    <h2>Berita PPDI</h2>
+    <p>Informasi dan berita kegiatan organisasi akan ditampilkan di sini.</p>
+  </section>
+
+  <section class="section" id="pengumuman">
+    <h2>Pengumuman</h2>
+    <p>Pengumuman resmi PPDI Provinsi Sulawesi Selatan akan ditampilkan di sini.</p>
+  </section>
+
+  <section class="section" id="kontak">
+    <h2>Hubungi Kami</h2>
+    <p>Informasi kontak pengurus provinsi akan ditambahkan kemudian.</p>
+  </section>
+</main>
+
+<footer>
+  <h3>PPDI PROVINSI SULAWESI SELATAN</h3>
+  <p>Bersatu, Berjuang, Maju Bersama</p>
+  <p>© 2026 PPDI Provinsi Sulawesi Selatan</p>
+</footer>
+
 </body>
 </html>

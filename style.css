@@ -9,22 +9,23 @@ html {
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #f4f7f5;
-  color: #293b32;
+  background: #f3f5fa;
+  color: #26344b;
   line-height: 1.7;
 }
 
 header {
-  background: linear-gradient(135deg, #064b35, #087b54);
+  background: linear-gradient(135deg, #15336f, #1e4497);
   color: white;
   text-align: center;
   padding: 38px 20px;
+  border-bottom: 5px solid #f2c629;
 }
 
 .logo {
-  width: 75px;
-  height: 75px;
-  border: 2px solid white;
+  width: 78px;
+  height: 78px;
+  border: 3px solid white;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -32,6 +33,7 @@ header {
   margin: 0 auto 15px;
   font-size: 23px;
   font-weight: bold;
+  background: #e6212a;
 }
 
 header h1 {
@@ -41,16 +43,17 @@ header h1 {
 
 header p {
   margin: 5px 0;
-  color: #e0f3e9;
+  color: #ffffff;
 }
 
 nav {
-  background: #063d2c;
+  background: #15336f;
   padding: 13px 10px;
   text-align: center;
   position: sticky;
   top: 0;
   z-index: 100;
+  border-bottom: 3px solid #e6212a;
 }
 
 nav a {
@@ -63,7 +66,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #a8e8c6;
+  color: #f2c629;
 }
 
 main {
@@ -73,15 +76,16 @@ main {
 }
 
 .hero {
-  background: linear-gradient(135deg, #e1f3e9, #ffffff);
+  background: linear-gradient(135deg, #ffffff, #e8edf8);
   border-radius: 16px;
   padding: 55px 35px;
   margin-bottom: 25px;
-  border-left: 6px solid #087b54;
+  border-left: 6px solid #e6212a;
+  box-shadow: 0 3px 12px #0000000c;
 }
 
 .hero .label {
-  color: #087b54;
+  color: #e6212a;
   font-weight: bold;
   letter-spacing: 2px;
   font-size: 12px;
@@ -90,7 +94,7 @@ main {
 .hero h2 {
   font-size: 38px;
   line-height: 1.25;
-  color: #07543b;
+  color: #1e4497;
   margin: 12px 0;
 }
 
@@ -100,17 +104,18 @@ main {
 
 .tombol {
   display: inline-block;
-  background: #087b54;
+  background: #1e4497;
   color: white;
   text-decoration: none;
   padding: 12px 22px;
   border-radius: 7px;
   margin-top: 12px;
   font-weight: bold;
+  border-bottom: 3px solid #f2c629;
 }
 
 .tombol:hover {
-  background: #064b35;
+  background: #15336f;
 }
 
 .section {
@@ -118,12 +123,13 @@ main {
   padding: 28px;
   border-radius: 13px;
   margin-bottom: 22px;
+  border-top: 3px solid #1e4497;
   box-shadow: 0 3px 12px #0000000c;
 }
 
 .section h2 {
-  color: #075b40;
-  border-bottom: 2px solid #dceee3;
+  color: #1e4497;
+  border-bottom: 2px solid #e4e9f3;
   padding-bottom: 10px;
 }
 
@@ -135,27 +141,29 @@ main {
 }
 
 .grid-kabupaten div {
-  background: #edf6f0;
-  border: 1px solid #d5e9dc;
+  background: #edf1fa;
+  border: 1px solid #d5deef;
   border-radius: 9px;
   padding: 15px;
   text-align: center;
   font-weight: bold;
-  color: #075b40;
+  color: #1e4497;
   transition: 0.2s;
 }
 
 .grid-kabupaten div:hover {
-  background: #d8eee0;
+  background: #1e4497;
+  color: white;
   transform: translateY(-3px);
 }
 
 footer {
-  background: #063d2c;
+  background: #15336f;
   color: white;
   text-align: center;
   padding: 30px 15px;
   margin-top: 40px;
+  border-top: 5px solid #e6212a;
 }
 
 footer h3 {
@@ -164,7 +172,7 @@ footer h3 {
 
 footer p {
   margin: 5px;
-  color: #d9eee2;
+  color: #ffffff;
 }
 
 @media (max-width: 600px) {
